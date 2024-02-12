@@ -27,3 +27,23 @@ a:hover,
 input[type="submit"] {
   opacity: 1;
 }
+
+form {
+  width: 300px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5em;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+form input,
+form textarea {
+  padding: 5px;
+}
