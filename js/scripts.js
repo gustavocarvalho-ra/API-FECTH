@@ -59,7 +59,7 @@ async function getPost(id) {
   loadingElement.classList.add("hide");
   postPage.classList.remove("hide");
 
-  const title = document.createElement("h1");
+  const title = document.createElement("h2");
   const body = document.createElement("p");
 
   title.innerText = dataPost.title;
