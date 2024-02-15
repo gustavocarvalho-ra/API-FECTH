@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: rgb(19, 19, 19);
   padding: 15px;
 }
 
@@ -12,7 +13,7 @@ body {
 
 a,
 input[type="submit"] {
-  background-color: #007BFF;
+  background-color: #ff0000;
   color: #FFF;
   padding: 10px 20px;
   border-radius: 5px;
@@ -46,4 +47,30 @@ form label {
 form input,
 form textarea {
   padding: 5px;
+}
+
+#blog {
+  display: grid;
+  margin-left: 4rem;
+}
+
+h2 {
+  color: #ff0000b9;
+  text-decoration: underline
+}
+
+h1 {
+  display: flex;
+  padding-left: 15rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #00ff6ad8;
+}
+
+p {
+  color: #00ff6a79;
+}
+
+div {
+  padding-bottom: 2.5rem;
 }
